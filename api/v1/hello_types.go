@@ -32,7 +32,8 @@ type HelloSpec struct {
 
 	// foo is an example field of Hello. Edit hello_types.go to remove/update
 	// +optional
-	Foo *string `json:"foo,omitempty"`
+	//Foo *string `json:"foo,omitempty"`
+	Message string `json:"message,omitempty"`
 }
 
 // HelloStatus defines the observed state of Hello.
